@@ -1,0 +1,72 @@
+/* TipTap editor content styling — matches design spec
+   TODO: table border color and header bg are placeholder values, not from design spec.
+   TODO: table column resize handles may need additional CSS. Refine both when working on tables. */
+
+.tiptap {
+  outline: none;
+  font-family: var(--font-family-body);
+  font-size: 18px;
+  line-height: 28.8px;
+  letter-spacing: -0.054px;
+  color: var(--color-body-text);
+}
+
+.tiptap p {
+  margin: 0 0 12px;
+}
+
+.tiptap h1 {
+  font-family: var(--font-family-heading);
+  font-size: 36px;
+  font-weight: 580;
+  line-height: 46.8px;
+  letter-spacing: -0.72px;
+  color: var(--color-body-text);
+  margin: 24px 0 12px;
+}
+
+.tiptap h1:first-child {
+  margin-top: 0;
+}
+
+.tiptap h2 {
+  font-family: var(--font-family-heading);
+  font-size: 24px;
+  font-weight: 580;
+  line-height: 33.6px;
+  letter-spacing: -0.48px;
+  color: var(--color-body-text);
+  margin: 20px 0 8px;
+}
+
+.tiptap mark {
+  background-color: var(--color-highlight);
+  border-radius: 3px;
+  box-shadow:
+    var(--color-highlight) -1px 0px 0px 0px,
+    var(--color-highlight) 1px 0px 0px 0px;
+  color: inherit;
+}
+
+.tiptap img {
+  max-width: 100%;
+  height: auto;
+}
+
+.tiptap table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 12px 0;
+}
+
+.tiptap th,
+.tiptap td {
+  border: 1px solid rgb(220, 222, 224);
+  padding: 8px 12px;
+  vertical-align: top;
+}
+
+.tiptap th {
+  background-color: rgb(245, 246, 247);
+  font-weight: 600;
+}
