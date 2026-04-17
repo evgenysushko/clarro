@@ -10,6 +10,10 @@
 
   --color-body-text: rgb(57, 61, 64);
   --color-highlight: rgba(85, 96, 250, 0.2);
+
+  --color-sidebar-bg: rgb(250, 251, 252);
+  --color-sidebar-text: rgb(69, 74, 79);
+  --color-sidebar-item-selected: rgb(245, 246, 247);
 }
 
 body {
